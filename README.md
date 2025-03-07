@@ -1,4 +1,11 @@
 # flower-shop-reservation
+
+Technologies used:
+- PHP
+- JavaScript
+- CSS
+- HTML
+
 A flower reservation website for the user and the administrator
 
 The purpose of this website is making the managing of products (adding, editing, deleting) simpler for the administrator.
