@@ -1,0 +1,115 @@
+.banner {
+    background: url('/FlowerSHOP/img/contactUsBanner.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 85px;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+.contact-form-section {
+    padding: 50px 20px;
+
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+    gap: 50px;
+}
+
+.contact-form-container {
+    max-width: 600px;
+    background-color: white;
+    padding: 30px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  
+
+}
+
+.contact-form-container h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+label {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #555;
+    display: block;
+    text-align: left;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+
+#buttonSubmit {
+    background-color: #CC9996;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    letter-spacing: 1px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+#buttonSubmit:hover {
+    background-color: #a77d73;
+}
+
+.contact-form-data-container h2, td{
+    color: black !important
+    ;
+}
+
+.contact-form-data-container{
+    border-left: 2px solid #CC9996;
+    padding-left: 50px;
+}
+
+#imageOne, #imageTwo, #imageThree{
+    width: 400px;
+    height: 400px;
+}
+
+.AllImages{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px;
+    gap: 50px;
+}
+
+.Explore{
+    font-family: 'Great Vibes', cursive;
+    font-size: 40px;
+    text-align: center;
+}
+
+.ExploreTwo{
+    font-family: 'Great Vibes', cursive;
+    font-size: 30px;
+    text-align: center;
+}

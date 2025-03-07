@@ -1,0 +1,77 @@
+.banner {
+    background-color: #CC9996;
+    height: 80vh; 
+    margin: 0; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-family: 'Great Vibes', cursive;
+    
+}
+
+h1{
+    font-size:85px;
+}
+h3{
+    margin-top:-10px ;
+    font-size:25px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+}
+
+.container{
+    display: flex;
+    gap: 50px;
+    padding: 50px 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.container img{
+    width: 40%;
+}
+
+ .Information h1{
+    font-size: 50px;
+   
+}
+
+.Information h3{
+    font-size: 20px;
+    
+}
+
+.Information{
+display: flex;
+gap:10px;
+flex-direction: column;
+}
+
+
+
+.Information button{
+    
+    margin-top:20px;
+    background-color: #CC9996;
+    padding: 5px 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    color: white;
+    letter-spacing: 2px; 
+    border: transparent;
+    cursor: pointer;
+}
+
+.Information textarea {
+    width: 100%;
+    border: 1px solid #CC9996;
+}
+.Information input{
+
+    border: 1px solid #CC9996;
+}

@@ -1,0 +1,317 @@
+.banner {
+    background: url('/FlowerSHOP/img/banner.jpg');
+    background-position: center center; 
+    background-size: cover;
+    background-repeat: no-repeat; 
+    height: 80vh;
+    margin: 0; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h1{
+    font-family: 'Great Vibes', cursive;
+    
+}
+
+h1{
+    font-size:85px;
+}
+h3{
+    margin-top:-10px ;
+    font-size:25px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+}
+
+#buttonBanner{
+    background-color: #CC9996;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    letter-spacing: 2px; 
+    border: transparent;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.OneDiv img{
+    border-radius: 50%;
+    width: 120px;
+
+}
+
+.containerCategory{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.containerCategory div{
+    background-color: #cc9996b2;
+    padding: 30px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap:10px;
+    width: 250px;
+
+}
+
+.containerCategory .OneDiv .OneDivTitle{
+    font-weight: 500;
+    font-size: 18px;
+    color: black;
+}
+
+.containerCategory .OneDiv .OneDivText{
+
+    color: black;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+.ImagesClass p, .FlowerCategoryTitle{
+    font-family: 'Great Vibes', cursive;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+}
+
+.firstBlock, .secondBlock, .middleBlock{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    gap:10px;
+}
+.firstBlock .imageOne{
+    padding: 20px;
+    height: 350px;
+    width:250px;
+    background: url('/FlowerSHOP/img/PurpleBackgrounfFlower.jpeg');
+    background-position: center center; 
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+.firstBlock .imageOne p{
+    font-family: 'Great Vibes', cursive;
+    font-size: 30px;
+}
+
+
+.middleBlock .imageOne{
+    height: 350px;
+    width:250px;
+    background: url('/FlowerSHOP/img/flowerSTORE.jpeg');
+    background-position: center center; 
+    background-size: cover;
+    background-repeat: no-repeat; 
+    position: relative; 
+}
+
+.middleBlock .imageOne::after {
+    content: ''; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 3; 
+}
+
+
+.secondBlock .imageTwo{
+    height: 350px;
+    width:250px;
+    background: url('/FlowerSHOP/img/FlowerWithPinkBox.jpeg');
+    background-position: center center; 
+    background-size: cover;
+    background-repeat: no-repeat; 
+    display: flex;
+    justify-content: flex-end; 
+    align-items: flex-end; 
+    padding: 20px;
+
+}
+.secondBlock .imageTwo p{
+    font-family: 'Great Vibes', cursive;
+    font-size: 30px;
+}
+
+.businessTitle{
+    color: white;
+    z-index: 1000;
+}
+#buttonImages{
+    background-color: #CC9996;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    color: white;
+    letter-spacing: 2px; 
+    border: transparent;
+    margin-top: 20px;
+    cursor: pointer;
+    z-index: 1000;
+
+
+}
+.middleBlock div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    gap:1px;
+}
+.middleBlock div p{
+ font-size: 25px;
+    
+}
+
+.ImagesClass{
+    background-color: #fce8e7;
+    padding: 30px;
+    padding-bottom: 100px !important;
+    display: flex;
+    flex-direction: column;
+    gap:50px;
+}
+
+.firstBlockOne .imageOne{
+    height: 350px;
+    width:250px;
+    background: url('/FlowerSHOP/img/yellowBlueFlower.jpeg');
+    background-position: center center; 
+    background-size: cover;
+    background-repeat: no-repeat; 
+ 
+}
+
+.lastBlock .imageOne{
+    height: 350px;
+    width:250px;
+    background: url('/FlowerSHOP/img/ManyFlowers.jpeg');
+    background-position: center center; 
+    background-size: cover;
+    background-repeat: no-repeat; 
+ 
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    margin: 0 80px;
+    padding-bottom: 80px !important;
+    
+  
+}
+
+.flower-image {
+    width: 100%; 
+    max-width: 100%; 
+    height: 220px;
+    margin-bottom: 10px;
+ 
+}
+.flower-box {
+    background-color: white;
+    border: 1px solid #ddd;
+ 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 220px;
+    margin: 15px;
+    padding: 20px;
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ .title{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    padding-top: 30px;
+}
+
+.flower-box button{
+
+    margin-top:20px;
+    background-color: #CC9996;
+    padding: 5px 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    color: white;
+    letter-spacing: 2px; 
+    border: transparent;
+    cursor: pointer;
+    
+}
+
+.flower-box h3{
+    font-size: 20px;
+    text-align: center;
+    line-height: 25.9px;
+    padding-top:10px ;
+
+
+}
+.flower-box p{
+    font-size: 15px;
+    text-align: center;
+}
+
+
+.OurStore{
+    display: flex;
+    padding: 150px;
+    gap: 36px;
+    align-items: center;
+}
+
+.titleOurStore{ 
+    font-family: 'Great Vibes', cursive;
+    font-size: 50px;
+    
+}
+.OurStoreTwo img{
+
+    width: 500px;
+}
+
+.OurStoreTwo{
+    width:50%;
+    display: flex;
+}

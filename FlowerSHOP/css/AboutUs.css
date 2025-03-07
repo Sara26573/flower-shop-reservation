@@ -1,0 +1,73 @@
+.banner {
+    background-color: #CC9996;
+    height: 80vh; 
+    margin: 0; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-family: 'Great Vibes', cursive;
+    
+}
+
+h1{
+    font-size:85px;
+}
+h3{
+    margin-top:-10px ;
+    font-size:25px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+}
+
+#buttonBanner2{
+    background-color: white;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    color: #CC9996;
+    letter-spacing: 2px; 
+    border: transparent;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+
+#buttonBanner{
+    background-color: #CC9996;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    letter-spacing: 2px; 
+    border: transparent;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+
+.OurStore, .OurStoreTwo{
+    display: flex;
+    padding: 30px 80px;
+    gap: 36px;
+    align-items: center;
+}
+
+
+.titleOurStore{ 
+    font-family: 'Great Vibes', cursive;
+    font-size: 50px;
+    
+}
+.OurStoreTwo img{
+
+    width: 500px;
+}
+
+.OurStoreTwo{
+    padding: 20px 0px;
+}

@@ -1,0 +1,97 @@
+
+
+.container{
+  padding:30px;
+}
+
+form {
+    height:90vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 250px;
+    background-color: white;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    gap: 100px;
+}
+
+form label {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+form input, form select, form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+form textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+form button {
+    padding: 10px 22px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+form p {
+    color: #ff0000;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+form input[type="number"] {
+    width: 48%;
+    display: inline-block;
+}
+
+form input[type="number"]:nth-child(even) {
+    margin-left: 4%;
+}
+
+form input[type="file"] {
+    width: 100%;
+}
+
+form textarea {
+    margin-top: 10px;
+}
+
+form .form-group {
+    margin-bottom: 15px;
+}
+
+form select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+form select option {
+    padding: 10px;
+    font-size: 14px;
+}
+
+
+table td input{
+    width:150px !important;
+}
